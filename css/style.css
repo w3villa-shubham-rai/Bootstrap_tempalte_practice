@@ -1,0 +1,160 @@
+a:hover{
+    text-decoration: none;
+}
+.section
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.section h2.section-head
+{
+    color: rgb(226, 9, 9);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head::after
+{
+    background: #4d17e4;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#header
+{
+    color: #fff;
+    background-color:  #4d17e4;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu
+{
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    text-decoration: none
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#banner
+{
+    background: url('/images/img1.jpg') no-repeat 0 0;
+    background-size: cover;
+
+}
+
+.banner-title
+{
+    padding-top: 6rem;
+}
+.banner-title h1
+{
+    background: rgba(245, 239, 151, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: #ee0eab;
+    padding: 10px; 
+}
+.service-box
+{
+    text-align: center;
+}
+.service-box i.fa
+{
+    color: #10ec2c;
+    font-size: 80px;
+    margin-bottom: 15PX;
+}
+#testmonials
+{
+    background: url('/images/img4.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: rgb(221, 207, 12);
+    font-size: 13px;
+}
+.testmonial p{
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+}
+.section-head
+{
+    color: rgb(15, 108, 189);
+}
+.testmonial img{
+    width: 111px;
+    height: 146px;
+}
+.section h2.section-head {
+    /* color: black; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.news-post img{
+    width: 250px;
+}
+#footer-sidebar
+{
+    color: #fff;
+    background: #3681cc;
+    padding: 20px 0;
+}
+.footer-widget ul li{
+    list-style: none;
+    color: #fff;
+}
+
+.footer-widget ul li a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width :768px)
+{
+    #logo
+    {
+        text-align: center;
+    }
+    #menu
+    {
+        text-align: center;
+    }
+    .testmonial{
+        text-align: center;
+    }
+    .footer-widget
+    {
+        margin-top: 20px;
+    }
+    #footer
+    {
+        text-align: center;
+    }
+    .news-post
+    {
+        text-align: center;
+    }
+}
